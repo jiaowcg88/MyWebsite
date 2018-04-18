@@ -1,8 +1,8 @@
 {
-  "name": "myportfoliosite",
+  "name": "joannawu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jiaowcg88.github.io/joannawu",
+  "homepage": "https://jiaowcg88.github.io/MyWebsite",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
