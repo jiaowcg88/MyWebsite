@@ -1,0 +1,210 @@
+.header-color {
+    background: linear-gradient(to bottom, #33ccff 0%, #6666ff 100%);;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.landing-grid {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: 100% 100%;
+
+}
+
+.myPic-img {
+    height: 250px;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    opacity: 0.75;
+}
+
+.banner-text {
+    width: 75%;
+    margin:auto;
+    border-radius: 10px;
+    padding-top: 2em;
+    border: 2px solid lightblue;
+    background-color:inherit;
+    position: flex;
+}
+.banner-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin:auto;
+}
+.banner-text hr {
+    border-top: 4px dotted white;
+    width: 50%;
+    margin: auto;
+}
+.banner-text p {
+    color: white;
+    font-size: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white	;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.projects-grid {
+    display: flex;
+}
+
+.contact-body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    background: white;
+    color:black;
+    margin-bottom: 20px;
+}
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.list-item-content {
+    font-size: 25px;
+    font-family: 'Anton';
+}
+
+.contact-list i {
+    font-size: 40px;
+    padding-right: 3rem;
+}
+
+/* Resume Page css */
+.resume-right-col {
+    font-size: 20px;
+    padding-top: 40px;
+    color: black;
+    padding-bottom: 5px;
+    margin: auto;
+}
+.resume-right-col h3{
+    padding-top: 8px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.education-grid {
+    text-align: left;
+    padding: 0px;
+    margin:auto;
+}
+
+.aboutme-cell {
+    width: 400px;
+    height: 100%;
+    border-radius: 2px;
+    border-width: 5px;
+}
+
+.aboutme-text {
+    font-family: 'Open+Sans';
+    width: 50%;
+    margin:auto;
+    border-radius: 10px;
+    padding:1em;
+}
+/* About me page */
+.aboutme-grid {
+    text-align: center;
+    justify-content: center;
+    background: white;
+    color:white;
+    margin-bottom: 20px;
+    background-image: url('http://www.beach-backgrounds.com/wallpapers/look-at-the-pink-sunset-from-the-beach-wallpaper-1366x768-172.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme-grid p {
+    font-family: 'Oxygen';
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+li {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.projects-grid-card {
+    width: 250px;
+    margin: auto;
+}
+
+.projects-grid-title {
+    font-family: 'Oxygen',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    height: 200px;
+    background-position: center;
+}
+
+.projects-grid-text {
+    font-weight: bold;
+    font-family: 'Open+Sans', sans-serif;
+    font-size: 40px;
+    height: 120px;
+}
+
+.mdl-layout__inner-container {
+    background-size: cover;
+    background-image: url('http://www.beach-backgrounds.com/wallpapers/look-at-the-pink-sunset-from-the-beach-wallpaper-1366x768-172.jpg');
+}
+
+.mdl-tabs__tab-bar a {
+    color: white;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+    color: yellow
+}
