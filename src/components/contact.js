@@ -11,9 +11,10 @@ class Contact extends Component {
                         <img
                         src="./images/myPic1.jpg"
                         style={{height: '250px'}}
+                        alt="myPic"
                         />
                         <p>
-                        Joanna Wu is interested in working on building real interesting applications. 
+                        Joanna Wu is interested in working on building real interesting applications.
                         </p>
                     </Cell>
                     <Cell col={6}>

@@ -23,8 +23,8 @@ class Projects extends Component {
                         The main function of this APP is to display book List which can be added by Admin and to implement a real shopping cart process
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/jiaowcg88/BookStoreApp" target="_blank"> GitHub</a></Button>
-                            <Button colored><a href="http://bookstore.2nwyeuqm3t.us-east-1.elasticbeanstalk.com/" target="_blank">App Link</a>
+                            <Button colored><a href="https://github.com/jiaowcg88/BookStoreApp"> GitHub</a></Button>
+                            <Button colored><a href="http://bookstore.2nwyeuqm3t.us-east-1.elasticbeanstalk.com/">App Link</a>
                             </Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -43,8 +43,8 @@ class Projects extends Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>
-                            <a href="https://github.com/jiaowcg88/Reminder-App" target="_blank"> GitHub</a></Button>
-                            <Button colored><a href="https://jiaowcg88.github.io/Reminder-App/" target="_blank">App link</a>
+                            <a href="https://github.com/jiaowcg88/Reminder-App"> GitHub</a></Button>
+                            <Button colored><a href="https://jiaowcg88.github.io/Reminder-App/">App link</a>
                             </Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -59,9 +59,9 @@ class Projects extends Component {
                         view, comment or edit a posted place.
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/jiaowcg88/FunHiking" target="_blank"> GitHub</a>
+                            <Button colored><a href="https://github.com/jiaowcg88/FunHiking"> GitHub</a>
                             </Button>
-                            <Button colored><a href="https://dry-coast-39587.herokuapp.com/" target="_blank"> Website</a>
+                            <Button colored><a href="https://dry-coast-39587.herokuapp.com/"> Website</a>
                             </Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -81,7 +81,7 @@ class Projects extends Component {
                             Implementation of tic tac toe in java
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/jiaowcg88/Artificial-Intelligence-Game-design" target="_blank">GitHub</a></Button>
+                            <Button colored><a href="https://github.com/jiaowcg88/Artificial-Intelligence-Game-design">GitHub</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -100,7 +100,7 @@ class Projects extends Component {
                             The objective of this project is to classify bot accounts among all twitter accounts based on Maching learning classification models. The project applied three alogrithms, including logistic regression, naive bayes, random forest to classify accounts.
                         </CardText>
                         <CardActions border>
-                            <Button colored><a href="https://github.com/jiaowcg88/Machine-Learning-Project" target="_blank">GitHub</a></Button>
+                            <Button colored><a href="https://github.com/jiaowcg88/Machine-Learning-Project">GitHub</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
