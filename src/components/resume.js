@@ -71,13 +71,13 @@ class Resume extends Component {
                         endYear={2016}
                         jobName="NYC Department of Citywide Administrative Services"
                         jobDescription={
-                            <div>
+
                             <ul>
                                 <li>Collaborated with manager on writing user stories for e-procurement system development by Agile Methodologies.</li>
                                 <li>Created wireframes for Web Page Design of agency-contract application system using Balsamic Mockups.</li>
                                 <li>Processed large amount of data from Excel spreadsheet and Microsoft Word to Microsoft Access databases.</li>
                             </ul>
-                            </div>
+            
                          } />
                         <hr style={{borderTop: '3px solid black', marginTop:'auto', marginBottom:'2px'}} />
                         <h3>Skills</h3>
