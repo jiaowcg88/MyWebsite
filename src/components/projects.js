@@ -14,11 +14,11 @@ class Projects extends Component {
                     {/* #Project 1*/}
                     <Card className ="projects-grid-card"shadow={0} >
                         <CardTitle
-                        style ={{
-                            color: "white", background:'url(/images/bookstore.png)',
-                            backgroundSize:"auto",backgroundRepeat: 'no-repeat', backgroundPosition:"center"}}
-                        className ="projects-grid-title"> BookStore Shopping Cart App</CardTitle>
-                        <CardText className ="projects-grid-text">
+                        className ="projects-grid-title"
+                        style={{ background:'url(./images/bookstore.png)', backgroundSize:"300px 200px", color:"white",backgroundRepeat: 'no-repeat', backgroundPosition:"center",
+                        padding:"60px 80px"}}>
+                        BookStore Shopping Cart App</CardTitle>
+                        <CardText className ="projects-grid-text" style={{textAlign:"justify"}}>
                         This BookStore App is created by React and Redux after Learning a course of Full Stack Universal React with Rdux, Node.js and MongoDB @Udemy.
                         The main function of this APP is to display book List which can be added by Admin and to implement a real shopping cart process
                         </CardText>
@@ -34,10 +34,12 @@ class Projects extends Component {
                     {/* #Project 2*/}
                     <Card className ="projects-grid-card"shadow={0}  >
                         <CardTitle className ="projects-grid-title"
-                        style={{ background:'url(/images/reminder.png)',
-                        backgroundSize:"auto 200px", color:"black",backgroundRepeat: 'no-repeat', backgroundPosition:"center"
-                    }}>Todo List App </CardTitle>
-                        <CardText className ="projects-grid-text">
+                        style={{ backgroundColor:'lightblue', backgroundSize:"300px 200px", color:"white",backgroundRepeat: 'no-repeat',
+                        backgroundPosition:"center",
+                        padding:"80px 80px"}}>
+                        Todo List App
+                        </CardTitle>
+                        <CardText className ="projects-grid-text" style={{textAlign:"justify"}}>
                         The reminder APP is created by React and Redux. The main function
                         of App to add items to the todo list.
                         </CardText>
@@ -53,7 +55,10 @@ class Projects extends Component {
                     </Card>
                     {/* #Project 3*/}
                     <Card className ="projects-grid-card"shadow={0} >
-                        <CardTitle className ="projects-grid-title" style={{background:'url(/images/goHiking.png)'}}> Fun Hiking Site </CardTitle>
+                        <CardTitle className ="projects-grid-title"
+                        style={{ background:'url(./images/goHiking.png)', backgroundSize:"300px 200px", backgroundRepeat: 'no-repeat', backgroundPosition:"center",
+                        padding:"80px 80px"}}>
+                        </CardTitle>
                         <CardText className ="projects-grid-text">
                         Go Hiking Website was developed for users to add new hiking places,
                         view, comment or edit a posted place.

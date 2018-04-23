@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+import image1 from '../images/woman_technologist.png'
 
 class AboutMe extends Component {
     render() {
@@ -9,7 +10,7 @@ class AboutMe extends Component {
                     <Cell className ="aboutme-cell" col={12}>
                     <h1>Welcome to My Profile</h1>
                     <img
-                    src="./images/woman_technologist.png"
+                    src= {image1}
                     alt="favicon"
                     />
                     <div className="aboutme-text">

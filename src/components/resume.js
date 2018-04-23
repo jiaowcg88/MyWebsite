@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import image1 from '../images/woman_technologist.png'
 
 
 class Resume extends Component {
@@ -13,7 +14,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign:'center', paddingTop:'40px', paddingLeft:'20px', width:'80%'}}>
                             <img
-                                src ="/images/woman_technologist.png"
+                                src = {image1}
                                 alt="womanTechnologist"
                                 style={{height: '250px'}} />
                             <h2>Joanna Wu</h2>
@@ -77,7 +78,7 @@ class Resume extends Component {
                                 <li>Created wireframes for Web Page Design of agency-contract application system using Balsamic Mockups.</li>
                                 <li>Processed large amount of data from Excel spreadsheet and Microsoft Word to Microsoft Access databases.</li>
                             </ul>
-            
+
                          } />
                         <hr style={{borderTop: '3px solid black', marginTop:'auto', marginBottom:'2px'}} />
                         <h3>Skills</h3>
